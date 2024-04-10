@@ -47,7 +47,7 @@ public class Main {
         int num1 = scanner.nextInt();
         System.out.println("Ingrese la altura del triangulo");
         int num2 = scanner.nextInt();
-        int areaTriángulo = (num1 * num2);
+        int areaTriángulo = (num1 * num2) /2;
         System.out.println("El area del triangulo es " + areaTriángulo);
     }
 
